@@ -1,0 +1,147 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Dash</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <script src="https://kit.fontawesome.com/c2584c0dd4.js" crossorigin="anonymous"></script>
+   <link rel="icon" type="image/x-icon" href="/Images/iOffice.ico">
+  <style>
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 10px;
+      background-color: #2f3337;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #2f3337;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+  </style>
+</head>
+<body style="background-color:#2f3337">
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+        <a class="navbar-brand" href="index.html"><img src="/Images/coffee80h.png" style="height:35px"></a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="dash.html"> <i class="fa-duotone fa-house-laptop" style="font-size:20px;color:tan"></i>&nbsp iOffice</a></li>
+        <li><a href="dashups.html"><i class="fa-duotone fa-users-rays" style="font-size:20px;color:white"></i>&nbsp Dashboard</a></li>
+        <li><a href="passport.html"> <i class="fa-duotone fa-user-shield" style="font-size:20px;color:white"> </i>&nbsp Passport</a></li>
+        <li><a href="checkin.html"> <i class="fa-duotone fa-person-to-portal" style="font-size:20px;color:white"> </i>&nbsp Check-In</a></li>
+        <li><a href="tickets.html"> <i class="fa-duotone fa-tarp" style="font-size:20px;color:orange"> </i>&nbsp Tickets</a></li>
+        <li><a href="conf.html"> <i class="fa-duotone fa-rectangle-history-circle-user" style="font-size:20px;color:white"></i>&nbsp Projects</a></li>
+
+      </ul>
+     <form class="navbar-form navbar-right" role="search">
+        <div class="form-group input-group">
+          <input type="text" class="form-control" placeholder="Search..">
+          <span class="input-group-btn">
+            <button class="btn btn-default" type="button">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </span>        
+        </div>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-1 sidenav">
+      <a href="dash.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone fa-explosion" style="font-size:40px;color:tan"> </i>
+    <p style="color:white;">PILOT</p>
+  </a>
+  <br><a href="checkin.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone fa-person-to-portal" style="font-size:40px;color:tan"> </i>
+    <p style="color:white;">CHECK IN</p>
+  </a>
+  <br>
+  <a href="dashups.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone  fa-users-rays" style="font-size:40px;color:tan"></i>
+    <p  style="color:white;">DASHBOARD</p>
+  </a>
+  <br>
+  <a href="backstory.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone fa-book-open-cover" style="font-size:40px;color:tan"></i>
+    <p  style="color:white;">BACKSTORY</p>
+  </a>
+<br>
+ <a href="mailto:iofficets@icloud.com" title="Click to Email Simon" target="_parent"> 
+ <i class="fa-duotone fa-id-card" style="font-size:40px;color:light-blue"></i></a>
+    <p  style="color:white;">CONTACT</p> 
+  
+    </div>
+    <div class="col-sm-8 text-left"> 
+      &nbsp;&nbsp;<iframe src="/boardembed.html" width="900px" height="620px" style="border:none;"></iframe>
+
+     <!-- <h3>Test</h3>
+      <p>Lorem ipsum...</p>-->
+    </div>
+    <div class="col-sm-2 sidenav sidenav col-lg-3">
+      <div class="well">
+        <p><strong>iOFFICE</strong></p>
+         <div class="thumbnail">
+        <p>Check Alerts</p>
+        <img src="/Images/iO250.gif" alt="iOFFICE" width="300px" height="182px">
+       
+        <a href="dash.html" <button class="btn btn-primary">iOFFICE</button></a>
+      </div>
+      <div class="well">
+        <p>WORKROOM</p>
+        <div class="thumbnail">
+        <p>On-Board Project:</p>
+        <img src="/Images/work_300.gif" alt="Workroom" width="300px" height="182px">
+        <p><strong>iOffice Archive</strong></p>
+      
+       <a href="workroom.html" <button class="btn btn-primary">WORKROOM</button></a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
+</footer>
+
+</body>
+</html>
+  

@@ -1,0 +1,182 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>iOFFICE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   <script src="https://kit.fontawesome.com/c2584c0dd4.js" crossorigin="anonymous"></script>
+   <link rel="icon" type="image/x-icon" href="/Images/iOffice.ico">
+  
+  <style>
+    {
+  background-color: #2f3337;
+}
+body, h1,h2,h3,h4,h5,h6 {font-family: "Arial", sans-serif}
+.w3-row-padding img {margin-bottom: -10px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #2f3337;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left:0}}
+
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 650px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #2f3337;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #2f3337;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) 
+      .sidenav {
+        height: auto;
+        padding: 20px;
+      }
+      .row.content {height:auto;} 
+    }
+</style>
+</head>
+<body style="background-color:#2f3337">
+<!--top nav bar -->
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <div class="container-mt3">
+    <a class="navbar-brand" href="#" style="padding-left:25px">
+       <a class="navbar-brand" href="/index.html"><img src="/Images/coffee80h.png" style="height:55px"></a>
+  </div>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link active" href="/Conference/confhome.html" title="Click for enterprise dashboard" style="padding-left:55px">
+         <i class="fa-duotone fa-users-rays" style="font-size:30px;color:tan;text-align"></i></a>
+      </li>
+     <li class="nav-item">
+        <a class="nav-link" href="/Conference/discuss.html" title="Click for Portal Discussions home" style="padding-left:55px">
+           <i class="fa-duotone fa-comment-arrow-up" style="font-size:30px;color:tan"> </i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Passport/profile.html" title="Click for Passport Profile" style="padding-left:55px">
+           <i class="fa-duotone fa-user-shield" style="font-size:30px;color:tan"> </i>
+        </a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="/Tickets/thome.html" title="Click for Ticket Assignments" style="padding-left:55px">
+           <i class="fa-duotone fa-tarp" style="font-size:30px;color:tan"> </i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/Projects/phome.html" title="Click for Project Dashboard" style="padding-left:55px">
+           <i class="fa-duotone fa-rectangle-history-circle-user" style="font-size:30px;color:tan"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/People/me.html" style="padding-left:605px"> <i class="fa-duotone fa-face-smile-relaxed" style="font-size:30px;color:tan"></i>Me</a>
+      </li>
+    </ul>
+  <!-- Side navbar -->
+    </div>
+  </div>
+</nav> 
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-1 sidenav">
+      <a href="/Projects/dboard.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone fa-network-wired" style="font-size:40px;color:tan"> </i></a>
+    <p style="color:white;">DASHBOARD</p>
+  <br><a href="/Conference/discuss.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone fa-comment-arrow-up" style="font-size:40px;color:tan"> </i></a>
+    <p style="color:white;">DISCUSS<br>PROJECT</p>
+  <br>
+  <a href="/Conference/confhome.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone  fa-users-rays" style="font-size:40px;color:tan"></i></a>
+    <p  style="color:white;">TEAM<br>CONF</p>
+
+  <br>
+  <a href="/backstory.html" class="w3-bar-item w3-button w3-padding-large w3-hover-grey">
+    <i class="fa-duotone fa-book-open-cover" style="font-size:40px;color:tan"></i></a>
+    <p  style="color:white;">BACKSTORY</p>
+<br>
+ <a href="mailto:iofficets@icloud.com"> 
+ <i class="fa-duotone fa-id-card" style="font-size:40px;color:light-blue"></i></a>
+    <p  style="color:white;">CONTACT</p> 
+ </div>
+ <!-- embed iframe -->
+ <div class="col-sm-8 text-align" > 
+  
+    <iframe src="https://www.ioffices.live/iOffice/ioembed.html" width="900px" height="620px" style="border:none; padding-left:20px"></iframe>
+
+ </div>
+ <!-- right panel-->
+<div class="col-sm-3 sidenav sidenav col-lg-3" style="background-color:#dbd4c0">
+      <div class="well" style="background-color:white; padding" >
+ <p></p>
+ <p></p>
+  <div class="dropdown" style="background-color:#dbd4c0; padding">
+  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+    My iOFFICE DOC INDEX
+  </button>
+  <div style="background-color:#dbd4c0; padding-bottom:20px"></div>
+  <ul class="dropdown-menu" style="background-color:#dbd4c0; padding">
+    <li><a class="dropdown-item" href="http://myioffice.com/pdf/WP.pdf" target="_blank" title="Click to open iOFFICE Whitepaper"><strong>A-1 iOFFICE Whitepaper</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+    <li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</div>
+<div style="background-color:#dbd4c0; padding">
+        <img src="/Images/conf_300.gif" alt="Board Room" STYLE="padding-bottom:10px">
+       <!-- <p><strong>Project Team</strong></p>
+        <p>Wed. 1 March 2023</p> -->
+        <a href="/Conference/confhome.html" button class="btn btn-info">PROJECT CONFERENCE ROOM</button></a>
+</div>
+</div>
+<div style="background-color:#dbd4c0; padding">
+   <p>Check Alerts:</p>
+        <img src="/Images/exec_300.gif" alt="Board Room" STYLE="padding-bottom:10px">
+       <!-- <p><strong>Project Team</strong></p>
+        <p>Wed. 1 March 2023</p> -->
+        <a href="/Executive/ehome.html" button class="btn btn-success">iOFFICE BOARD ROOM</button></a>
+</div>
+    </div>
+  </div>
+</div>
+<div>
+
+
+<h6 style="color:white"><center> Copyright &copy; 2023 Greenportal L.L.C. All rights reseerved. </center></h6>
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
+    <h2 class="w3-text-light-grey">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+       <p><i class="fa-duotone fa-id-card w3-text-white w3-xxlarge w3-margin-right"></i>Thomas E. Simon, Originator of the iOffice<i class="fa-sharp fa-regular fa-registered"></i></p>
+      <p><i class="fa-sharp fa-solid fa-person-from-portal" style="font-size:30px;color:green"></i> Greenportal L.L.C., Mount Vernon, Iowa, USA</p>
+      <p><i class="fa-duotone fa-mobile w3-text-blue w3-xxlarge w3-margin-right"></i> Phone/SMS: 319 378 1476 </p>
+      <p style="color:white"><i class="fa-duotone fa-envelope-circle-check w3-text-white w3-xxlarge w3-margin-right"> </i> <a href="mailto:iofficets@icloud.com">iofficets@icloud.com</a></p> Email: iofficets@icloud.com</p>
+    </div><br>
+  <div>
+  <!-- End Contact Section -->
+   
+
+<!-- END PAGE CONTENT -->
+</div>
+
+</body>
+</html>
+
