@@ -1,48 +1,33 @@
 # 👋 Hello developer!
+This is one of the many templates available from W3schools. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp) and [CSS](https://www.w3schools.com/css/default.asp). 🦄
 
-This project contains a basic node express application to get you started. Check our [tutorials for frontend development](https://www.w3schools.com/where_to_start.asp) to learn the basics of [HTML](https://www.w3schools.com/html/default.asp), [CSS](https://www.w3schools.com/css/default.asp) and [JavaScript](https://www.w3schools.com/js/default.asp). 🦄
 
-While you're in the editor working, the site will be running `npm run dev`, which runs Nodemon, and changes to JS files or environment will restart the application. Once you close the editor, the container runs `npm run start`.
+## 🏗 What's next?
+Customize this template to make it your own. Remember to make your layout responsive - if you want your site to look good on smaller screens like mobile. 
 
-## Knowledge requirements
+## 🎨 Where to find everything
 
-To be able to fully understand and modify this template to your needs, there are several things you should know (or learn):
+- **External style sheet:** The template you chose is built with [W3CSS](https://www.w3schools.com/w3css/default.asp), placed in an external style sheet. You can either replace that style sheet - or keep it simple and leave it in.  
+	[Go to tutorial about W3CSS](https://www.w3schools.com/w3css/default.asp)
 
-- [HTML](https://www.w3schools.com/html/default.asp)
-- [CSS](https://www.w3schools.com/css/default.asp)
-- [JavaScript](https://www.w3schools.com/js/default.asp)
-- [Node.js](https://www.w3schools.com/nodejs/default.asp)
-- [Express.js](https://expressjs.com/)
+- **Fonts:** Explore the options from **Google fonts** and add your favorite.  
+	[Go to tutorial about fonts](https://www.w3schools.com/w3css/w3css_fonts_google.asp)
 
-## Warning - environment variables
+- **Icons:** Icons are from **Fontawesome**. You can reuse those and choose other free icons from their free library.  
+	[Go to tutorial about Fontawesome](https://www.w3schools.com/icons/fontawesome5_intro.asp)
 
-Do not change SQLITE_DB as it is generated. If you change it the space will not behave as predicted.
+- **Images:** Replace the images by uploading your own and updating their URLs.  
+	[Go to article about how to upload files](https://support.w3schools.com/hc/en-gb/articles/4410414928017)
 
-## 🔨 What's next?
+> ⚡️ **Tip:** [Set up Google Analytics](https://www.w3schools.com/howto/howto_google_analytics.asp) to get valuable insights about your space and visitors. 
 
-Customize this template to make it your own.  
-Remember to make your layout responsive - if you want your site to look good on smaller screens like mobile.
 
-## 🎨 Where to find everything?
+### ⛑ Need support?
+[Join our Discord community](https://discord.gg/6Z7UaRbUQM) and ask questions in the **#spaces-general** channel.
 
-You can find static resources in the folder `public`.
 
-### Database
+### 🚀 Upgrade to Pro
+[Upgrade your account](https://billing.w3schools.com/products/spaces) to boost your space and take your projects to the next level; more requests, more storage and more power for up to 10 spaces.
 
-Dynamic spaces can use [SQLite](https://www.sqlite.org/docs.html) database.  
-The database file is called `database.db`. It is placed inside the `w3s-dynamic-storage` folder.  
-SQLite connection path to the database is `w3s-dynamic-storage/database.db` which you can use to connect to the SQLite database programmatically.   
 
----  
-**Do not change the `w3s-dynamic-storage` folder name or `database.db` file name!**  
-**By changing the `w3s-dynamic-storage` folder name or `database.db` file name, you risk the space not working properly.**
-
-## 🔨 Please note
-For now files created/uploaded or edited from within the terminal view will not be backed up or synced. 
-
-## ⛑ Need support?
-
-[Join our Discord community](https://discord.gg/6Z7UaRbUQM) and ask questions in the **#spaces-general** channel to get your space on the next level.  
-[Send us a ticket](https://support.w3schools.com/hc/en-gb) if you have any technical issues with Spaces.
-
-Happy coding!
+Happy learning!
